@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "bombardierregular";
+  src: url("../fonts/bombard_-webfont.woff2") format("woff2"),
+    url("../fonts/bombard_-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "oxygenbold";
+  src: url("../fonts/oxygen-bold-webfont.woff2") format("woff2"),
+    url("../font/oxygen-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "oxygenlight";
+  src: url("../fonts/oxygen-light-webfont.woff2") format("woff2"),
+    url("../fonts/oxygen-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "oxygenregular";
+  src: url("../fonts/oxygen-regular-webfont.woff2") format("woff2"),
+    url("../fonts/oxygen-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  background-color: #f0f6f6;
+  background-size: cover;
+  font-family: "oxygenregular", sans-serif;
+}
+img {
+  object-fit: cover;
+}
+li {
+  list-style: none;
+}

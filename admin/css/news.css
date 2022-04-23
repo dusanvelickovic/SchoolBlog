@@ -1,0 +1,62 @@
+.table-news {
+  width: 87%;
+}
+.table-news .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 95%;
+}
+.table-news .container > * {
+  margin-top: 50px;
+}
+.all-news {
+  border-collapse: collapse;
+  margin: 0px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 50px;
+}
+.all-news thead tr {
+  background-color: #023047;
+  color: #ffffff;
+  text-align: left;
+}
+.all-news th,
+.all-news td {
+  padding: 12px 15px;
+  text-align: center;
+}
+.comments th,
+.comments td {
+  max-width: 600px;
+  word-wrap: break-word;
+}
+.all-news tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.all-news tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.all-news tbody tr:last-of-type {
+  border-bottom: 2px solid #023047;
+}
+.toNews {
+  text-decoration: underline;
+}
+.btn-delete {
+  color: #f0f6f6;
+  background-color: red;
+  padding: 5px;
+  font-weight: bold;
+}
+.btn-edit {
+  color: #f0f6f6;
+  padding: 5px;
+  font-weight: bold;
+  background-color: blue;
+}

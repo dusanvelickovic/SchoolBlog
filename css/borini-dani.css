@@ -1,0 +1,180 @@
+.boriniDani .container {
+  width: 90%;
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+.boriniDaniMenu {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 14%;
+}
+.boriniDaniMenu li:hover {
+  cursor: pointer;
+}
+.curr-post {
+  font-weight: bold;
+  animation-name: selected;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+
+  animation-fill-mode: forwards;
+  /*webkit*/
+  -webkit-animation-fill-mode: forwards;
+}
+@keyframes selected {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 35px;
+    list-style: outside;
+  }
+}
+.boriniDaniMenu li {
+  margin: 5px 0px;
+}
+.boriniDaniContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.boriniDaniContent .iframe-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.boriniDaniContent .video-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.boriniDaniContent .videoTitle {
+  font-size: 45px;
+}
+/* ACTIVITIES BORINI DANI */
+.boriniDaniContent .activities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 90vh;
+}
+.boriniDaniContent .activities .activities-title {
+  margin-bottom: 30px;
+}
+.boriniDaniContent .activities .days {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.boriniDaniContent .activities .oneDay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #023047;
+  width: 210px;
+  min-height: 220px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.boriniDaniContent .activities .daily-act {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+  border-top: 1px solid #f0f6f6;
+}
+.oneDay .daily-title {
+  font-size: 20px;
+  padding: 2px 0px;
+}
+.daily-act .non-display {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.boriniDaniContent .activities .daily-act .date {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 0px 25px;
+  margin-top: -35px;
+  height: 30px;
+  color: #023047;
+  border: 2px solid #023047;
+  background-color: #f0f6f6;
+  border-radius: 5px;
+}
+.boriniDaniContent .activities .daily-act:hover {
+  height: 75%;
+  transition: 0.65s;
+}
+.boriniDaniContent .activities .daily-act:hover > .non-display {
+  visibility: visible;
+  opacity: 1;
+}
+/* NEWS BORINI DANI */
+.boriniDaniContent .news {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: center;
+  width: 80%;
+  height: 100vh;
+}
+.boriniDaniContent .news {
+  width: 80%;
+}
+.boriniDaniContent .news .news-title {
+  font-size: 32px;
+  text-transform: none;
+}
+.boriniDaniContent .news .boxes {
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.boriniDaniContent .news .boxes .box {
+  width: 350px;
+  min-height: 350px;
+}
+.boriniDaniContent .news .boxes .box a {
+  justify-content: flex-start;
+}
+.boriniDaniContent .news .boxes .box a img {
+  min-height: 200px;
+  max-height: 200px;
+}
+.boriniDaniContent .news .box .boxContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px;
+}
+.boriniDaniContent .news .box .boxContent > * {
+  padding: 10px 0px;
+}
+.boriniDaniContent .news .box .boxContent h2 {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}

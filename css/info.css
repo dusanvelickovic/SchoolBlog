@@ -1,0 +1,47 @@
+.kalendar {
+  margin: 20px 0;
+}
+
+.kalendar_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.kalendar_img {
+  width: 40%;
+  -webkit-user-drag: none;
+}
+
+.kalendar_raspored {
+  text-align: center;
+}
+
+.kalendar_h2 {
+  margin: 15px 0;
+}
+
+.kalendar_table {
+  width: 100%;
+  border: 1px solid #023047;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.kalendar_tableitem {
+  padding: 15px 25px;
+  border: 1px solid #023047;
+}
+
+@media screen and (max-width: 1490px) {
+  .kalendar_content {
+    flex-direction: column;
+  }
+  .kalendar_img {
+    margin: auto;
+  }
+  .kalendar_raspored {
+    width: 70%;
+    margin: auto;
+  }
+}
