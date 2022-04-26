@@ -5,6 +5,7 @@ https://github.com/LukaSpasic <br>
 https://github.com/a13ksa <br>
 https://github.com/b0g1dan23
 _________________________________________
+## *This project is not live yet, hence database is included in working files and it is named "sajtparlament.sql"*
 ### Home page
 Home page consists of navbar at the top, hero-section below(unfinished), latest news section, highlighted cards, and footer <br>
 [Click to view home page](https://user-images.githubusercontent.com/73674795/165406598-ee8c50c0-dee5-4e5c-9e3f-b22892495e9b.png)
